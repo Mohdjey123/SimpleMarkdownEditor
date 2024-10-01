@@ -1,21 +1,36 @@
 {
   "name": "simplemarkdowneditor",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Markdown editor built with Electron.",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "package": "electron-packager . markdown-editor --platform=win32 --arch=x64",
+    "build": "electron-builder",
+    "package": "electron-packager . simple-markdown-editor --platform=win32 --arch=x64",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "electron": "^32.1.2",
     "marked": "^14.1.2"
   },
   "devDependencies": {
+    "electron": "^32.1.2",
+    "electron-builder": "^25.0.5",
     "electron-packager": "^17.1.2"
+  },
+  "build": {
+    "appId": "com.mohdj.simplemarkdowneditor",
+    "productName": "SimpleMarkdownEditor",
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
   }
 }
