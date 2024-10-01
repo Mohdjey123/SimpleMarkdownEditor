@@ -26,7 +26,7 @@ Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.co
 ### Install dependencies
 
  	npm install
-	npm install electron- --save-dev
+	npm install electron-package --save-dev
 	 
 ### Run the application
 You can start the application in development mode by running:
@@ -45,6 +45,7 @@ This command will generate the application for the target platform, producing an
 Pre-built executables for Windows and Linux are available in the Releases section.
 
 Windows: SimpleMarkdownEditor.Setup.1.0.0.exe
+
 Linux: SimpleMarkdownEditor-1.0.0.AppImage
 
 ### Usage
