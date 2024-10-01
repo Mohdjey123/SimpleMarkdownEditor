@@ -1,4 +1,4 @@
-r# Simple Markdown Editor
+# Simple Markdown Editor
 
 A lightweight Markdown editor built with Electron that provides real-time Markdown preview. It supports basic Markdown syntax and offers functionalities like loading and saving Markdown files.
 
