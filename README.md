@@ -44,9 +44,9 @@ This command will generate the application for the target platform, producing an
 
 Pre-built executables for Windows and Linux are available in the Releases section.
 
-Windows: SimpleMarkdownEditor.Setup.1.0.0.exe
+Windows: [SimpleMarkdownEditor.Setup.1.0.0.exe](https://github.com/Mohdjey123/SimpleMarkdownEditor/releases/download/v1.0.0/SimpleMarkdownEditor.Setup.1.0.0.exe)
 
-Linux: SimpleMarkdownEditor-1.0.0.AppImage
+Linux: [SimpleMarkdownEditor-1.0.0.AppImage](https://github.com/Mohdjey123/SimpleMarkdownEditor/releases/download/v1.0.0/SimpleMarkdownEditor-1.0.0.AppImage)
 
 ### Usage
 Open the application.
