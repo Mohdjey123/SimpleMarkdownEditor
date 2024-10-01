@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown Editor</title>
-    <link rel="stylesheet" href="style.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Markdown Editor</title>
+   <link rel="stylesheet" href="style.css">
+   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline';">
 </head>
+
 <body>
-    <div class="container">
-        <textarea id="markdown" placeholder="Write your markdown here..."></textarea>
-        <div id="preview"></div>
-    </div>
-    <script src="renderer.js"></script>
+   <div class="toolbar" class="draggable" id="toolbar">
+      <button id="minimize">_</button>
+      <button id="maximize">[]</button>
+      <button id="close">X</button>
+      <button id="load-file">Load File</button>
+      <button id="save-file">Save File</button>
+      <button id="export-html">Export to HTML</button>
+      <button id="toggle-theme">Toggle Theme</button>
+   </div>
+   <div class="container">
+      <textarea id="markdown" placeholder="Write your markdown here..."></textarea>
+      <div id="preview"></div>
+   </div>
+
+   <script type="module" src="renderer.js"></script>
 </body>
+
 </html>
